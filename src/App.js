@@ -11,39 +11,34 @@ class App extends Component {
         <Navbar />
         <Section
           title="About Me"
-          subtitle={dummyText}
           dark={true}
-          id="section1"
+          
+          id="aboutMe"
         />
         <Section
           title="Skill"
-          subtitle={dummyText}
           dark={false}
-          id="section2"
+          id="skill"
         />
         <Section
           title="Education"
-          subtitle={dummyText}
           dark={true}
-          id="section3"
+          id="education"
         />
         <Section
           title="Service"
-          subtitle={dummyText}
           dark={false}
-          id="section4"
+          id="service"
         />
         <Section
           title="Portfolio"
-          subtitle={dummyText}
           dark={true}
-          id="section5"
+          id="portfolio"
         />
         <Section
           title="Contact"
-          subtitle={dummyText}
           dark={false}
-          id="section6"
+          id="contact"
         />
       </div>
     );

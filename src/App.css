@@ -1,8 +1,8 @@
 :root {
-  --off-white: #fec608;
+  --mainOrange: #fec608;
 }
 .nav {
-  background-color: var(--off-white);
+  background-color: var(--mainOrange);
   position: sticky;
   top: 0px;
   width: 100%;
