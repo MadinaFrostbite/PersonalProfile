@@ -1,18 +1,17 @@
 import React from "react";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
 
-export default function AboutMe() {
+function AboutMe() {
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="sm">
-        <Typography
-          component="div"
-          style={{ backgroundColor: "#cfe8fc", height: "100vh" }}
-        />
-      </Container>
-    </React.Fragment>
+    <div>
+      <h1 className="title">lorem</h1>
+      <div className="dics">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae
+        veniam temporibus officia accusantium, inventore obcaecati provident
+        sunt non alias, perferendis nemo eos dolor incidunt iste aut blanditiis
+        asperiores qui.
+      </div>
+    </div>
   );
 }
+
+export default AboutMe;
