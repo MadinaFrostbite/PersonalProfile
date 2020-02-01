@@ -6,7 +6,7 @@ import Service from './Main/Service';
 import Portfolio from './Main/Portfolio';
 import Contact from './Main/Contact';
 
-export default function Section({ title, dark, id }) {
+export default function Section({ title, id }) {
   function addSection(id){
     console.log("in add section");
 
@@ -34,7 +34,7 @@ export default function Section({ title, dark, id }) {
     }
   }
   return (
-    <div className={"section" + (dark ? " section-dark" : "")}>
+    <div className={"section" }>
       <div className="section-content" id={id}>
         <h1>{title}</h1>
           <div>

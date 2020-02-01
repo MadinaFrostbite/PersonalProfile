@@ -1,6 +1,18 @@
 
 :root {
   --mainOrange: #fec608;
+  --col-1: calc(100% / 12 * 1);
+  --col-2: calc(100% / 12 * 2);
+  --col-3: calc(100% / 12 * 3);
+  --col-4: calc(100% / 12 * 4);
+  --col-5: calc(100% / 12 * 5);
+  --col-6: calc(100% / 12 * 6);
+  --col-7: calc(100% / 12 * 7);
+  --col-8: calc(100% / 12 * 8);
+  --col-9: calc(100% / 12 * 9);
+  --col-10: calc(100% / 12 * 10);
+  --col-11: calc(100% / 12 * 11);
+  --col-12: calc(100% / 12 * 12);
 }
 .nav {
   background-color: var(--mainOrange);
@@ -10,6 +22,7 @@
   height: 80px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  position: fixed;
 }
 
 .nav-logo {
@@ -46,24 +59,110 @@
   transition: 500ms;
 }
 
-
-
-.section-dark {
-  background: #333;
-  color: white;
-}
-
 .section-content {
-  max-width: 800px;
+  
   margin: 0 auto;
   padding: 40px;
 
 }
-.container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    background-attachment: orange;
+
+/* Amout Me */
+h3{
+   font-size: 36px;
+    color: #333333;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+h4{
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #666666;
+    padding-bottom: 15px;
+}
+h3 span{
+      color: #fec608;
+}
+p{
+   font-size: 13px;
+    line-height: 24px;
+    color: #333333;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+.main_title {
+    text-align: center;
+    padding: 60px 0px;
+}
+.main_title h2 {
+    font-size: 36px;
+    font-family: "Bree Serif", serif;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #222222;
+    display: inline-block;
+    line-height: 58px;
+    padding: 0px 23px;
+}
+.download{
+    margin-top: 40px;
+    display: block;
+    background: #fec608;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    color: #222222;
+    font-size: 18px;
+    font-family: "Yellowtail", cursive;
+    position: relative;
+    overflow: hidden;
+}
+.personalImg{
+  max-width: 322px;
+}
+.personalInfo{
+  margin-left: 100px;
 }
 
+.download span{
+    display: inline-block;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    height: 100%;
+    transition: all 400ms linear 0s;
+}
+
+.personalInfo p{
+  padding: 15px 0px 25px 0px;
+      font-size: 13px;
+      line-height: 24px;
+      color: #333333;
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+}
+.about{
+  background-color: whitesmoke;
+}
+
+
+
+
+
+/* 
+@media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+
+@media (min-width: 992px)
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+.container {
+    width: 750px;
+} */
