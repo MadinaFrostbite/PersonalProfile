@@ -57,4 +57,13 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
+
 }
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-attachment: orange;
+}
+
