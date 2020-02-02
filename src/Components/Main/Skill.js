@@ -11,7 +11,7 @@ function Skill() {
          <h2>My Skill</h2>
       </div>
            <Grid container direction="row-reverse" justify="center" alignItems="center" spacing={2} >
-            <Grid item xs={6}>
+            <Grid item xs={6} md={5}>
             <div class="skill_text">
             <h4>Web development Skills</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loren Ipsum has been the industry's standard dummy text.</p>
@@ -61,7 +61,7 @@ function Skill() {
             </div>
             </div>
            </Grid>
-           <Grid item xs={6} >
+           <Grid item xs={6} md={5} >
            <div class="skill_text">
            <h4>Web development Skills</h4>
            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loren Ipsum has been the industry's standard dummy text.</p>

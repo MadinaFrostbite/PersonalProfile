@@ -21,7 +21,6 @@ function Contact(){
         <div className="formAre">
         <form action="">
         
-        
         </form>
         </div>
         </Grid>
