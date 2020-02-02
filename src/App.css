@@ -1,6 +1,7 @@
 
 :root {
-  --mainOrange: #fec608;
+  --mainGreen: #27a79a;
+  --mainGrey: #efefef;
   --col-1: calc(100% / 12 * 1);
   --col-2: calc(100% / 12 * 2);
   --col-3: calc(100% / 12 * 3);
@@ -15,7 +16,7 @@
   --col-12: calc(100% / 12 * 12);
 }
 .nav {
-  background-color: var(--mainOrange);
+  background-color: var(--mainGreen);
   position: sticky;
   top: 0px;
   width: 100%;
@@ -75,7 +76,7 @@ h3{
     font-weight: bold;
     padding-bottom: 10px;
 }
-h4{
+.about h4{
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: bold;
@@ -83,7 +84,7 @@ h4{
     padding-bottom: 15px;
 }
 h3 span{
-      color: #fec608;
+      color: var(--mainGreen);
 }
 p{
    font-size: 13px;
@@ -110,7 +111,7 @@ p{
 .download{
     margin-top: 40px;
     display: block;
-    background: #fec608;
+    background: var(--mainGreen);
     text-align: center;
     line-height: 40px;
     border-radius: 20px;
@@ -146,10 +147,70 @@ p{
 }
 .about{
   background-color: whitesmoke;
+  padding-bottom: 30px;
+}
+/* My Skill */
+.skill{
+  background-color: var(--mainGrey) ;
+}
+.singleService
+.iconService{
+  display: flex;
+  justify-content: center;
+}
+.singleService
+ a h4{
+   display: flex;
+  justify-content: center;
+}
+.singleSkill h4 {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+/* Education  */
+.education{
+  background-color: var(--mainGrey) ;
+}
+/* services */
+.service{
+  background-color: var(--mainGreen);
+  padding-bottom: 30px;
+}
+.iconService{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+.cardSkill{
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.service h4{
+  color: black;
+}
+/* portfolio */
+.portfolio{
+  background-color: var(--mainGrey);
+  padding-bottom: 20px;
+}
+/* footer */
+.footerInner{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 80px 0px 60px 0px;
+    margin-top: -30px;
 }
 
-
-
+.socialIcon{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
 
 
 /* 

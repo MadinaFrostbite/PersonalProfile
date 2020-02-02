@@ -2,24 +2,14 @@
 import React from 'react';
 import personalImg from '../../personal.jpg'
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    textAlign: 'start',
-    color: theme.palette.text.secondary,
-  },
-}));
+
 export default function AboutMe() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container className= "about" maxWidth="md" direction="row-reverse" justify="center" alignItems="center">
+      <Container className= "about" maxWidth="md" justify="center" alignItems="center">
         <Grid container >
         <Grid item md={5}>
         <img src= {personalImg} className = 'personalImg'/>

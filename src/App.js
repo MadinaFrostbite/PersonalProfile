@@ -8,7 +8,6 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        
         <Section
         id="aboutMe"
         />
@@ -17,28 +16,18 @@ class App extends Component {
           id="skill"
         />
         <Section
-          title="Education"
-          
           id="education"
         />
         <Section
-          title="Service"
-          
-          id="service"
+         id="service"
         />
         <Section
-          title="Portfolio"
-          
-          id="portfolio"
+         id="portfolio"
         />
         <Section
-          title="Contact"
-         
           id="contact"
         />
-        
-       
-        <Footer/>
+       <Footer/>
       </div>
     );
   }
