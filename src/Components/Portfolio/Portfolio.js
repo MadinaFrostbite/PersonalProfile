@@ -2,7 +2,8 @@ import React from "react";
 import Container from '@material-ui/core/Container';
 import './myPortfolio.css'
 import Grid from "@material-ui/core/Grid";
-import cafe from '../../App.css'
+import '../../App.css';
+import portfolio from "../../portfolio.png";
 function Portfolio() {
   return (
     <Container
@@ -16,10 +17,10 @@ function Portfolio() {
       </div>
       <Grid container spacing={1}>
         <Grid container item xs={12} spacing={3}>
-          <Grid item xs={4}>
+          <Grid item xs={4} >
             <div class="portfolio_item">
               <div class="portfolio_img">
-                <img className="portfolio_img" src={cafe} alt="" />
+                <img class="portfolio_img" src={portfolio} alt="" />
               </div>
               <div class="portfolio_title">
                 <a href="#">
@@ -32,7 +33,7 @@ function Portfolio() {
           <Grid item xs={4}>
             <div class="portfolio_item">
               <div class="portfolio_img">
-                <img className="portfolio_img" src={cafe} alt="" />
+                <img class="portfolio_img" src={portfolio} alt="" />
               </div>
               <div class="portfolio_title">
                 <a href="#">
@@ -45,7 +46,7 @@ function Portfolio() {
           <Grid item xs={4}>
             <div class="portfolio_item">
               <div class="portfolio_img">
-                <img className="portfolio_img" src={cafe} alt="" />
+                <img class="portfolio_img" src={portfolio} alt="" />
               </div>
               <div class="portfolio_title">
                 <a href="#">
@@ -60,7 +61,7 @@ function Portfolio() {
           <Grid item xs={4}>
             <div class="portfolio_item">
               <div class="portfolio_img">
-                <img className="portfolio_img" src={cafe} alt="" />
+                <img class="portfolio_img" src={portfolio} alt="" />
               </div>
               <div class="portfolio_title">
                 <a href="#">
@@ -73,7 +74,7 @@ function Portfolio() {
           <Grid item xs={4}>
             <div class="portfolio_item">
               <div class="portfolio_img">
-                <img className="portfolio_img" src={cafe} alt="" />
+                <img class="portfolio_img" src={portfolio} alt="" />
               </div>
               <div class="portfolio_title">
                 <a href="#">
@@ -86,7 +87,7 @@ function Portfolio() {
           <Grid item xs={4}>
             <div class="portfolio_item">
               <div class="portfolio_img">
-                <img className="portfolio_img" src={cafe} alt="" />
+                <img class="portfolio_img" src={portfolio} alt="" />
               </div>
               <div class="portfolio_title">
                 <a href="#">

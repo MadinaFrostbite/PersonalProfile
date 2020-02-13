@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './About.css';
-import '../../App.css'
+import '../../App.css';
 import personalImg from '../../personal.jpg';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';

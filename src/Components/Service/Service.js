@@ -1,98 +1,68 @@
 import React from "react";
-import Container from '@material-ui/core/Container';
-import Grid from '@material-ui/core/Grid';
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
 import "./myService.css"
-const ServiceCard = props => {
-  return (
-    <div className="service_elements">
-      <div className="singleService">
-       <a href="#">
-          <h4>{props.subtitle}</h4>
-        </a>
-        <p>{props.def}</p>
-      </div>
-    </div>
-  );
-};
 
+const services = [
+  {
+    src: "fa fab fa-wordpress",
+    title: "Wordpress Development",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    src: "fa fa-mobile",
+    title: " Mobile Apps Development ",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    src: "fa fas fa-camera",
+    title: "Creative Design",
+    description:
+      " Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    src: "fa fa-paint-brush",
+    title: "Social Media Marketing",
+    description:
+      " Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    src: "fa fab fa-maxcdn",
+    title: "Professional Photography",
+    description:
+      " Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    src: "fa fas fa-laptop",
+    title: "Website Development",
+    description:
+      " Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }
+];
 function Service() {
+  const ServiceList = services.map(service => (
+    <Grid item xd={12} sm={6}>
+    <div class="service-item">
+    <i class={service.src}></i>
+    <h4>{service.title}</h4>
+    <p>{service.description}</p>
+    </div>
+    </Grid>
+  ));
   return (
     <Container
       className="service"
       maxWidth="md"
       justify="center"
-      alignItems="center"
-    >
-      <div class="main_title">
+      alignItems="center">
+    <div class="main_title">
         <h2>Services</h2>
-      </div>
-      <Grid
-        container
-        className="service"
-        mixWidth="sm"
-        alignItems="center"
-        justify="space-between"
-        spacing={3}
-      >
-        <Grid item sm={6}>
-          <div className="service-item">
-          <i className="fa fa-wordpress" aria-hidden="true"></i>
-          </div>
-          <ServiceCard
-            subtitle="Wordpress Development"
-            def="Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod,
-          tempor ets incididunt ut labore et dolore magna aliqua. Ut enim
-          adtiesm minim veniam, quis nostrud exercitation ullamco laboris."
-          />
-          <div className="service-item">
-            <i className="fa fa-mobile" aria-hidden="true"></i>
-          </div>
-          <ServiceCard
-            subtitle="Mobile Apps Development"
-            def="Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod,
-          tempor ets incididunt ut labore et dolore magna aliqua. Ut enim
-          adtiesm minim veniam, quis nostrud exercitation ullamco laboris."
-          />
-          <div className="service-item" >
-            <i className="fa fa-camera" aria-hidden="true"></i>
-          </div>
-          <ServiceCard
-            subtitle="Professional Photography"
-            def="Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod,
-          tempor ets incididunt ut labore et dolore magna aliqua. Ut enim
-          adtiesm minim veniam, quis nostrud exercitation ullamco laboris."
-          />
-        </Grid>
-        <Grid item sm={6}>
-          <div className="service-item">
-            <i className="fa fa-paint-brush" aria-hidden="true"></i>
-          </div>
-          <ServiceCard
-            subtitle="Creative Design"
-            def="Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod,
-          tempor ets incididunt ut labore et dolore magna aliqua. Ut enim
-          adtiesm minim veniam, quis nostrud exercitation ullamco laboris."
-          />
-          <div className="service-item">
-            <i className="fa fa-maxcdn" aria-hidden="true"></i>
-          </div>
-          <ServiceCard
-            subtitle="Social Media Marketing"
-            def="Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod,
-          tempor ets incididunt ut labore et dolore magna aliqua. Ut enim
-          adtiesm minim veniam, quis nostrud exercitation ullamco laboris."
-          />
-          <div className="service-item">
-            <i className="fa fa-laptop" aria-hidden="true"></i>
-          </div>
-          <ServiceCard
-            subtitle="Website Development"
-            def="Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod,
-          tempor ets incididunt ut labore et dolore magna aliqua. Ut enim
-          adtiesm minim veniam, quis nostrud exercitation ullamco laboris."
-          />
-        </Grid>
-      </Grid>
+    </div>
+    <Grid container>
+    {ServiceList}
+    </Grid>
     </Container>
   );
 }

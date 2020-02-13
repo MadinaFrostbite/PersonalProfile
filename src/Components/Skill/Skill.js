@@ -49,7 +49,6 @@ function Skill() {
           <div className="progress">
             <BorderLinearProgress
               className={classes.margin}
-              className="Bprogres"
               variant="determinate"
               color="secondary"
               value={85}
@@ -144,51 +143,18 @@ function Skill() {
 export default Skill
 
 /* 
-<div className="skillItem">
-            <div className="singleSkill">
-              <h5>WordPress</h5>
-              <ProgressBar
-                width="400px"
-                height="20px"
-                rect
-                fontColor="gray"
-                percentage="70"
-                rectPadding="2px"
-                rectBorderRadius="5px"
-                trackPathColor="transparent"
-                backgroundColor="#fec608"
-                trackBorderColor="grey"
-              />
-            </div>
-            <div className="singleSkill">
-              <h5>WordPress</h5>
-              <ProgressBar
-                width="400px"
-                height="20px"
-                rect
-                fontColor="gray"
-                percentage="70"
-                rectPadding="2px"
-                rectBorderRadius="5px"
-                trackPathColor="transparent"
-                backgroundColor="#fec608"
-                trackBorderColor="grey"
-              />
-            </div>
-            <div className="singleSkill">
-              <h5>WordPress</h5>
-              <ProgressBar
-                width="360px"
-                height="20px"
-                rect
-                fontColor="gray"
-                percentage="70"
-                rectPadding="1px"
-                rectBorderRadius="3px"
-                trackPathColor="transparent"
-                backgroundColor="#fec608"
-                trackBorderColor="grey"
-              />
-            </div>
+
+<h4>Wordpress</h4>
+          <div className="progress">
+            <BorderLinearProgress
+              className={classes.margin}
+              variant="determinate"
+              color="secondary"
+              value={85}
+            />
+            <p className="persent">85%</p>
           </div>
+
+
+
 */

@@ -1,7 +1,6 @@
 import React from "react" 
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
-import ReactMapGL from "react-map-gl";
 import './myContact.css'
 function Contact(){
  return (
@@ -77,7 +76,6 @@ function Contact(){
              name="firstname"
              placeholder="Your name.."
            />
-
            <input
              type="text"
              id="lname"
@@ -90,15 +88,12 @@ function Contact(){
              name="pasport number"
              placeholder="Your pasport number.."
            />
-
            <textarea
              id="subject"
              name="subject"
              placeholder="Write something.."
-             style={{ height: "238px" }}
-             style={{ width: "416px" }}
+             style={{ height: "169px", width: "379px", margig:"0px" }}
            ></textarea>
-
            <input id="form-button" type="submit" value="Submit" />
          </form>
        </Grid>

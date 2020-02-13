@@ -45,14 +45,14 @@ p{
     transition: all 400ms linear 0s;
 }
  p {
-    font-size: 14px;
+    font-size: 15px;
     color: #666;
-    line-height: 24px;
+    line-height: 28px;
     padding-bottom: 20px;
 }
 .media {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .media-left{

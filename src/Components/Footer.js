@@ -2,32 +2,38 @@ import React from "react"
 import Grid from "@material-ui/core/Grid";
 function Footer(){
  return (
-   <footer className="footerAre">
-     <div className="footerInner">
+   <footer class="footerAre">
+     <div class="footerInner">
        <div>
-         <h1 className="footerLogo">Madinabonu</h1>
+         <h1 class="footerLogo">Madinabonu</h1>
        </div>
-       <div className="socialIconAria">
-         <ul className="socialIcon">
-           <Grid container md={12} direction="row" justify="center" alignItems="center">
+       <div class="socialIconAria">
+         <ul class="socialIcon">
+           <Grid
+             container
+             md={12}
+             direction="row"
+             justify="center"
+             alignItems="center"
+           >
              <ul className="social-icon_footer">
                <li>
-                 <a href="#">
+                 <a href="https://www.facebook.com/madina.muhammadyusupova?ref=bookmarks">
                    <i class="fa fa-facebook"></i>
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="https://twitter.com/Madinka19972">
                    <i class="fa fa-twitter"></i>
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="https://www.instagram.com/madinabo__nu">
                    <i class="fa fa-instagram"></i>
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="m.mukhammadyusupova111@gmail.com">
                    <i class="fa fa-google-plus"></i>
                  </a>
                </li>
