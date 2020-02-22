@@ -56,13 +56,13 @@ function Service() {
       className="service"
       maxWidth="md"
       justify="center"
-      alignItems="center">
-    <div class="main_title">
+      alignItems="center"
+      xs={12}
+    >
+      <div class="main_title">
         <h2>Services</h2>
-    </div>
-    <Grid container>
-    {ServiceList}
-    </Grid>
+      </div>
+      <Grid container>{ServiceList}</Grid>
     </Container>
   );
 }

@@ -35,3 +35,30 @@ p{
    color: #333;
    font-size: 13px;
 }
+@media (max-width: 1199px){
+   
+}
+
+/*  md 768px - 991px  */
+@media (max-width: 991px){
+
+}
+
+/*  sm 576px - 767px  */
+@media (max-width: 767px){
+
+}
+
+
+/*  EXsm 320px - 575px  */
+@media (max-width: 575px){
+    #fname,#lname{
+      width: 256px;
+      height: 18px ;
+    }
+    #subject{
+      width: 256px;
+      height: 100px;
+    }
+  
+}

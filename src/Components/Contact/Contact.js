@@ -11,17 +11,12 @@ function Contact(){
      direction="row"
      justify="center"
      alignItems="flex-start"
-   >
+     xs={12}
+     >
      <div class="main_title">
        <h2>Contact Me</h2>
      </div>
-     <Grid
-       container
-       maxWidth="md"
-       justify="center"
-       alignItems="center"
-       spacing={3}
-     >
+     <Grid container maxWidth="md" spacing={3}>
        <Grid item md={6}>
          <div class="contact_title">
            <h4>Contact Info</h4>
@@ -65,7 +60,7 @@ function Contact(){
            </div>
          </div>
        </Grid>
-       <Grid item md={6} direction="column" display="block">
+       <Grid item md={6}  direction="column" display="block">
          <div class="contact_title">
            <h4>Send Message</h4>
          </div>
@@ -87,14 +82,19 @@ function Contact(){
              id="lname"
              name="pasport number"
              placeholder="Your pasport number.."
+             
            />
            <textarea
              id="subject"
              name="subject"
              placeholder="Write something.."
-             style={{ height: "169px", width: "379px", margig:"0px" }}
+             
            ></textarea>
-           <input id="form-button" type="submit" value="Submit" />
+           <input
+             id="form-button"
+             type="submit"
+             value="Submit"
+           />
          </form>
        </Grid>
      </Grid>

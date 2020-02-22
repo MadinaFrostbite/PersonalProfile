@@ -10,6 +10,7 @@ const BorderLinearProgress = withStyles({
     width: 370,
     height: 30,
     backgroundColor: lighten("#ffffff", 0.5)
+    
   },
   bar: {
     backgroundColor: "#fec608"
@@ -24,14 +25,18 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
+
 function Skill() {
+  
   const classes = useStyles();
+  
   return (
     <Container
       className="skill myskill-area"
       maxWidth="md"
       justify="center"
       alignItems="center"
+      xs={12}
     >
       <div class="main_title">
         <h2>My Skill</h2>
@@ -48,42 +53,32 @@ function Skill() {
           <h4>Wordpress</h4>
           <div className="progress">
             <BorderLinearProgress
-              className={classes.margin}
+              className={"progressWidth  " + classes.margin}
               variant="determinate"
               color="secondary"
               value={85}
             />
             <p className="persent">85%</p>
           </div>
-          <h4>Wordpress</h4>
+          <h4>HTML/CSS</h4>
           <div className="progress">
             <BorderLinearProgress
-              className={classes.margin}
+              className={"progressWidth  " + classes.margin}
               variant="determinate"
               color="secondary"
               value={65}
             />
             <p className="persent">65%</p>
           </div>
-          <h4>Wordpress</h4>
+          <h4>React</h4>
           <div className="progress">
             <BorderLinearProgress
-              className={classes.margin}
+              className={"progressWidth  " + classes.margin}
               variant="determinate"
               color="secondary"
               value={75}
             />
             <p className="persent">75%</p>
-          </div>
-          <h4>Wordpress</h4>
-          <div className="progress">
-            <BorderLinearProgress
-              className={classes.margin}
-              variant="determinate"
-              color="secondary"
-              value={95}
-            />
-            <p className="persent">95%</p>
           </div>
         </Grid>
         <Grid item lg={6}>
@@ -94,40 +89,30 @@ function Skill() {
               industry. Loren Ipsum has been the industry's standard dummy text.
             </p>
           </div>
-          <h4>Wordpress</h4>
+          <h4>MySQL</h4>
           <div className="progress">
             <BorderLinearProgress
-              className={classes.margin}
-              variant="determinate"
-              color="secondary"
-              value={75}
-            />
-            <p className="persent">75%</p>
-          </div>
-          <h4>Wordpress</h4>
-          <div className="progress">
-            <BorderLinearProgress
-              className={classes.margin}
+              className={"progressWidth  " + classes.margin}
               variant="determinate"
               color="secondary"
               value={85}
             />
             <p className="persent">85%</p>
           </div>
-          <h4>Wordpress</h4>
+          <h4>Vue</h4>
           <div className="progress">
             <BorderLinearProgress
-              className={classes.margin}
+              className={"progressWidth  " + classes.margin}
               variant="determinate"
               color="secondary"
               value={80}
             />
             <p className="persent">85%</p>
           </div>
-          <h4>Wordpress</h4>
+          <h4>Python</h4>
           <div className="progress">
             <BorderLinearProgress
-              className={classes.margin}
+              className={"progressWidth  " + classes.margin}
               variant="determinate"
               color="secondary"
               value={90}
@@ -142,19 +127,5 @@ function Skill() {
 
 export default Skill
 
-/* 
-
-<h4>Wordpress</h4>
-          <div className="progress">
-            <BorderLinearProgress
-              className={classes.margin}
-              variant="determinate"
-              color="secondary"
-              value={85}
-            />
-            <p className="persent">85%</p>
-          </div>
 
 
-
-*/

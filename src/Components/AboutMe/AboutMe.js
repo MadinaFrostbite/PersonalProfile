@@ -18,12 +18,13 @@ export default function AboutMe() {
         maxWidth="md"
         justify="center"
         alignItems="center"
+        xs={12}
       >
         <Grid container clasName="row">
-          <Grid item lg={5}>
+          <Grid item lg={5} xs={12} className="personal-img-resume">
             <img src={personalImg} className="person-img" alt="jpg" />
             <a href="D:\MY_PHOTOS\resume.pdf" className="download-btn" download>
-              <span>Download resume</span>
+              <span>Download resume </span>
             </a>
           </Grid>
           <Grid item lg={7} clasName="row person-details">
@@ -41,7 +42,7 @@ export default function AboutMe() {
               lorem lorem lorem
             </p>
             <Grid container>
-              <Grid item md={4} sm={6} className="person-information">
+              <Grid item md={4} sm={6} xs={6} className="person-information">
                 <ul>
                   <li>
                     <a href="#">Age</a>
@@ -66,16 +67,16 @@ export default function AboutMe() {
                   </li>
                 </ul>
               </Grid>
-              <Grid item md={8} sm={6} ld className="person-information">
+              <Grid item md={8} sm={6} xs={6} ld className="person-information">
                 <ul>
                   <li>
-                    <a href="#">24</a>
+                    <a href="#">23</a>
                   </li>
                   <li>
                     <a href="#">Citizen of United States</a>
                   </li>
                   <li>
-                    <a href="#">23 High Hope Blvd, Some City, Some Country</a>
+                    <a href="#">23 High </a>
                   </li>
                   <li>
                     <a href="#">+88 01911854378</a>

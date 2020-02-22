@@ -15,6 +15,7 @@ function Footer(){
              direction="row"
              justify="center"
              alignItems="center"
+             xs={12}
            >
              <ul className="social-icon_footer">
                <li>

@@ -7,29 +7,32 @@
 .contact{
   background-color: var(--mainGrey);
   padding-bottom: 50px;
-  margin-bottom: 60px;
 }
-#form-button {
-  width: 100px;
-  height: 35px;
+
+#form-button{
+    background-color: var(--mainGreen) ;
+    display: block;
+    border: none;
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
 }
+
 #subject{
+  display: block;
   width: 400px;
-  height: 300px;
-  max-width: 400px;
-  max-height: 300px;
+  height: 272px;
 }
 #fname,#lname
 {
+  display: block;
   width: 400px;
   height: 35px;
   margin-bottom: 20px;
+  
 }
 p{
     text-align: left;
-}
-.form-button{
-  background-color: var(--mainGreen);
 }
 
 .media .media-left i {
@@ -86,8 +89,31 @@ p{
     text-transform: uppercase;
     padding-bottom: 34px;
 }
-#form-button{
-    background-color: var(--mainGreen) ;
-    border: none;
-    margin-top: 10px;
+
+@media (max-width: 1199px){
+   
+}
+
+/*  md 768px - 991px  */
+@media (max-width: 991px){
+
+}
+
+/*  sm 576px - 767px  */
+@media (max-width: 767px){
+
+}
+
+
+/*  EXsm 320px - 575px  */
+@media (max-width: 575px){
+    #fname,#lname{
+      width: 256px;
+      height: 30px ;
+    }
+    #subject{
+      width: 256px;
+      height: 100px;
+    }
+   
 }

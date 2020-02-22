@@ -6,9 +6,7 @@
 .myskill-area {
     background-color: var(--mainGrey);
 }
-.myskill-area .skill-text{
-    padding-bottom: 20px;
-}
+
 .myskill-area .skill-text h4 {
     font-family: "Raleway", sans-serif;
     color: #333333;
@@ -53,6 +51,32 @@
     text-transform: uppercase;
     font-weight: bold;
     padding-bottom: 5px;
+}
+
+@media (max-width: 1199px){
+   
+}
+
+/*  md 768px - 991px  */
+@media (max-width: 991px){
+
+}
+
+/*  sm 576px - 767px  */
+@media (max-width: 767px){
+
+}
+
+
+/*  EXsm 320px - 575px  */
+@media (max-width: 575px){
+    .progressWidth{
+        width: 200px !important;
+        height: 18px;
+    }
+    .skill .skill-text p{
+        font-size: 16px;
+    }
 }
 
 
