@@ -33,10 +33,10 @@ export default function AboutMe() {
             </h3>
             <h4>Web Designer and Web Developer</h4>
             <p>
-              My name is Madina Mukhammadyusupova. I am 23 years old. Lorem
+              My name is  Madina Mukhammadyusupova. I am 23 years old. Lorem
               ipsum dolor sit amet, consectetur ascing elits, sed do eiusmod
               tempor incidunt ut labore et dolore mafgna aliqua. Ut enim ad mini
-              vniam quis nerci, tation ullamco laboris nisi ut aliquip ex ea
+              vniam quis nercizd, tation ullamco laboris nisi ut aliquip ex ea
               commodo consequat. Duis autes irure dolor in reprehenderit in etrs
               voluptate velit esse lorem lorem lorem lorem lorem lorem lorem
               lorem lorem lorem
