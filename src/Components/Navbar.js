@@ -5,14 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import '../App.css';
 
 // for burger 
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-}));
+
 
 export default class Navbar extends Component {
   scrollToTop = () => {
@@ -118,23 +111,7 @@ export default class Navbar extends Component {
               </ul>
             </Grid>
           </Grid>
-          <Grid className="burger">
-            <AppBar position="static">
-              <Toolbar variant="dense">
-                <IconButton
-                  edge="start"
-                  className={classes.menuButton}
-                  color="inherit"
-                  aria-label="menu"
-                >
-                  <MenuIcon />
-                </IconButton>
-                <Typography variant="h6" color="inherit">
-                  Photos
-                </Typography>
-              </Toolbar>
-            </AppBar>
-          </Grid>
+        
         </Container>
       </div>
     );
