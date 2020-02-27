@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar";
-import Section from "./components/Section";
-import Footer from './components/Footer';
+import Navbar from "./Components/Navbar";
+import Section from "./Components/Section";
+import Footer from './Components/Footer';
 import Container from "@material-ui/core/Container";
 
 // import "./components/AboutMe/About.css"
